@@ -1,10 +1,12 @@
 import React from "react"
+import Form from "../components/Form"
 
 import Layout from "../components/layout"
 
 const IndexPage = () => (
   <Layout>
-    <p>Hello world.</p>
+    <h2>Sign up</h2>
+    <Form />
   </Layout>
 )
 
