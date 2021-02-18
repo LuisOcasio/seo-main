@@ -1,12 +1,13 @@
 import React from "react"
+import Layout from "../components/Layout/Layout"
 import Form from "../components/forms/Form"
 
 const signup = () => {
   return (
     <>
-      <p>sign up below</p>
-
-      <Form />
+      <Layout>
+        <Form />
+      </Layout>
     </>
   )
 }

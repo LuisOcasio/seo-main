@@ -1,11 +1,12 @@
 import React from "react"
-import Layout from "../components/layout/layout"
+import Layout from "../components/Layout/Layout"
+import "semantic-ui-css/semantic.min.css"
 
 const IndexPage = () => {
   return (
     <>
       <Layout>
-        <h2>Home</h2>
+        <p>Hello</p>
       </Layout>
     </>
   )

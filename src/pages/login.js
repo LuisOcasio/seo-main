@@ -1,11 +1,12 @@
 import React from "react"
-import { graphql } from "gatsby"
+import Layout from "../components/Layout/Layout"
 
 const login = ({ data }) => {
   return (
     <>
-      <h2>Welcome</h2>
-      <p>{JSON.stringify(data, null, 4)}</p>
+      <Layout>
+        <h2>login</h2>
+      </Layout>
     </>
   )
 }
