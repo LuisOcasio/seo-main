@@ -1,13 +1,14 @@
 import React from "react"
-import Form from "../components/Form"
+import Layout from "../components/layout/layout"
 
-import Layout from "../components/layout"
-
-const IndexPage = () => (
-  <Layout>
-    <h2>Sign up</h2>
-    <Form />
-  </Layout>
-)
+const IndexPage = () => {
+  return (
+    <>
+      <Layout>
+        <h2>Home</h2>
+      </Layout>
+    </>
+  )
+}
 
 export default IndexPage

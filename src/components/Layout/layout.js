@@ -1,14 +1,6 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
-import "semantic-ui-css/semantic.min.css"
-import "./layout.css"
+import Nav from "./Nav"
 
 const Layout = ({ children }) => {
   return (
@@ -20,7 +12,16 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main>{children}</main>
+        <Nav />
+        <main
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          {children}
+        </main>
       </div>
     </>
   )
